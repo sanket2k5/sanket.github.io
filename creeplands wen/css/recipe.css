@@ -1,0 +1,20 @@
+* {
+    font-family: monospace;
+}
+
+.recipe-links {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.recipe-links-div ul li {
+    list-style: none;
+}
+
+.recipe-links-div ul li a {
+    text-decoration: none;
+}
+
+.recipe-links-img {
+    width: 50px;
+}

@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace, sans-serif;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+.container {
+    width: 100%;
+    min-height: 0%h;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+}
+
+.logo {
+    width: 70px;
+    margin: 10px 0;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.title {
+    font-size: 25px;
+    color: rgb(207, 207, 207);
+    margin: 10px 5px;
+    display: flex;
+}
+
+.navLinks {
+    flex: 1;
+    text-align: right;
+    align-items: center;
+}
+
+.navLinks ul {
+    padding: 0px 0px 0px 0px;
+}
+
+.navLinks ul li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+.navLinks ul li a {
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+    font-size: 15px;
+    font-weight: bold;
+    width: auto;
+}
+
+.navLinks ul li a:hover {
+    color: rgb(175, 175, 175);
+}
+
+.navLinks ul li a span {
+    display: block;
+}
+
+.navLinks ul li a img {
+    align-items: center;
+}
+
+.bx {
+    font-size: 25px;
+    display: flex;
+}
+
+.bx-chevron-right {
+    margin-right: 10px;
+    position: absolute;
+}
+
+.bx-block {
+    margin-right: 10px;
+    position: absolute;
+}
+
+.bxl-discord-alt {
+    margin-right: 10px;
+    position: absolute;
+}
+
+.bx-chevron-right {
+    opacity: 100;
+}
+
+.bx-block {
+    opacity: 100;
+}
+
+.bxl-discord-alt {
+    opacity: 100;
+}
+
+.contentLinksDiv {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contentLinks {
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    border: 2px solid whitesmoke;
+    padding: 10px 50px;
+    margin: 0px 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.contentLinks:hover {
+    background-color: rgb(75, 75, 75);
+    color: rgb(24, 24, 24);
+}
+
+.bx-table {
+    position: absolute;
+}
+
+.bx-folder-open {
+    position: absolute;
+}
+
+.bx-folder {
+    position: absolute;
+}
